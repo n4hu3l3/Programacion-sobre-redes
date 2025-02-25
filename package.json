@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-edge": "^3.0.0",
+    "json": "^11.0.0",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.7.3",
+    "node.js": "^0.0.1-security",
+    "nodemon": "^3.1.7",
+    "react-router-dom": "^7.0.2"
+  },
+  "name": "web",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Matias Landi",
+  "license": "ISC",
+  "description": ""
+}
