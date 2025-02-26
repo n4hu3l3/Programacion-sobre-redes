@@ -1,0 +1,43 @@
+USUARIOS
+[
+   {
+    "correo": "nahuellandi@hotmail.com",
+    "password": "contraseña"
+   },{
+    "correo": "landimatias@gmail.com",
+    "password": "contraseña"
+   },{
+    "correo": "yo@yahoo.com",
+    "password": "contraseña"
+   }
+]
+
+CONTACTOS
+[
+   {
+    "name": "matias nahuel",
+    "surname": "landi",
+    "age": 24,
+    "usuario": "nahuellandi@hotmail.com"
+   },{
+    "name": "facundo ivan",
+    "surname": "landi",
+    "age": 22,
+    "usuario": "nahuellandi@hotmail.com"
+   },{
+    "name": "pepe",
+    "surname": "argento",
+    "age": 44,
+    "usuario": "yo@yahoo.com"
+   }.{
+    "name": "moni",
+    "surname": "argento",
+    "age": 40,
+    "usuario": "yo@yahoo.com"
+   }.{
+    "name": "tyron",
+    "surname": "piru",
+    "age": 4,
+    "usuario": "landimatias@gmail.com"
+   }
+]
