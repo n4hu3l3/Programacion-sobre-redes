@@ -94,6 +94,20 @@ router.put("/modificarContacto/:id", async function(req,res){
     }
 })
 
+router.put("/modificarUsuario/:id", async function(req,res){
+    try {
+        const id = req.params.id;
+        const update = req.body;
+        const usuarioUpdate = await Usuarios.findByIdAndUpdate(id,update,{new:true,runValidators:true})
+        if(!usuarioUpdate){
+            res.status(404).json({missing:"error"})
+            res.status(usuarioUpdate)
+        }
+    } catch (err) {
+        res.json({error})
+    }
+})
+
 router.delete("/deleteContacto/:id", async function(req,res){
     const id = req.params.id;
     const result = await Contactos.deleteOne({_id: id});
